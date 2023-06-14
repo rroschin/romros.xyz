@@ -1,0 +1,356 @@
+ body {
+     font-family : 'Hind', sans-serif;
+     font-size : 15px;
+     line-height : 1.8em;
+     color : #989898;
+     font-weight : 300;
+     background : #f8f8f8;
+}
+
+ h1, h2, h3, h4, h5, h6 {
+     margin : 0 0 15px;
+     color : #444444;
+}
+ h1 {
+     font-size : 36px;
+     line-height : 1.8em;
+     font-weight : 700;
+}
+ h2 {
+     font-size : 18px;
+     line-height : 1.8em;
+     font-weight : 700;
+}
+ h3 {
+     font-size : 13px;
+     line-height : 1.8em;
+     font-weight : 700;
+}
+ h4 {
+     font-size : 15px;
+     line-height : 1.8em;
+     font-weight : 500;
+}
+ h5 {
+     font-size : 15px;
+     line-height : 1.5em;
+     font-weight : 500;
+}
+ h6 {
+     font-size : 15px;
+     line-height : 1.5em;
+}
+
+ a {
+     color : #ff5722;
+     text-decoration : none;
+     -webkit-transition : all 0.3s ease 0s;
+     -moz-transition : all 0.3s ease 0s;
+     -o-transition : all 0.3s ease 0s;
+     transition : all 0.3s ease 0s;
+}
+ a, a:active, a:focus, a:active {
+     text-decoration : none;
+     outline : none 
+}
+ a:hover, a:focus {
+     text-decoration : none;
+     color : #ff5722;
+}
+ p {
+     margin-bottom : 20px;
+}
+ strong {
+     color : #444444;
+}
+ ul {
+     margin : 0;
+     padding : 0;
+     list-style : none;
+}
+
+ #main-wrapper {
+     overflow : hidden;
+}
+
+ .section-wrapper {
+     padding : 20px 0;
+}
+ @media (max-width : 768px) {
+     .section-wrapper {
+         padding : 20px 0;
+    }
+}
+ @media (max-width : 600px){
+     .section-wrapper {
+         padding : 20px;
+    }
+}
+
+ .section-title {
+     margin-right : 30px;
+     text-align : right;
+}
+ .section-title h2 {
+     font-size : 14px;
+     margin-bottom : 5px;
+     color : #bbbbbb;
+     text-transform : uppercase;
+}
+ @media (max-width: 768px) {
+     .section-title{
+         text-align: left;
+    }
+     .section-title h2{
+         font-size: 18px;
+         margin-bottom: 20px;
+    }
+}
+
+ .header {
+     padding : 20px 0;
+     margin : 0;
+     position : relative;
+     border-top : 5px solid #ff5722;
+}
+ .header .profile-img {
+     margin-right : 30px;
+}
+ .header .name-wrapper {
+     margin-bottom : 30px;
+}
+ .header .name-wrapper h1 {
+     text-transform : uppercase;
+     line-height : 1;
+     margin : 0 0 5px;
+}
+ .header .name-wrapper span {
+     font-size : 24px;
+     color : #ff5722;
+}
+ .header .personal-details {
+     margin : 10px 0;
+}
+ .header .personal-details strong {
+     font-size : 13px;
+     color : #444444;
+     display : block;
+     line-height : 1;
+}
+ .header .personal-details small {
+     font-size : 12px;
+}
+ .header .personal-details span {
+     color : #989898;
+}
+ @media (max-width : 768px) {
+     .header {
+         padding : 20px 0;
+    }
+     .header .profile-img {
+         margin: 0 0 30px;
+    }
+}
+ @media (max-width : 600px){
+     .header{
+         padding: 20px;
+    }
+}
+
+ .social-icon {
+     margin : 20px 0;
+     padding : 0;
+     display : block;
+}
+ .social-icon li {
+     display : inline-block;
+     margin : 0 2px;
+}
+ .social-icon li a {
+     display : block;
+     font-size : 12px;
+     color : #333333;
+     width : 34px;
+     height : 34px;
+     line-height : 33px;
+     text-align : center;
+     border-radius : 2px;
+     border : 2px solid #eeeeee;
+}
+ .social-icon li a:hover {
+     border-color : #cccccc;
+}
+
+ .item-stats .item-stats-value{
+     font-size: 18px;
+     color: #444;
+     font-weight: 500;
+}
+ .item-stats .item-stats-name{
+     font-size: 12px;
+     text-transform: uppercase;
+     line-height: 1;
+}
+ @media (max-width: 768px) {
+     .item-stats{
+         margin-bottom: 30px;
+    }
+}
+
+ .expertise-item {
+     margin-bottom : 20px;
+}
+ .expertise-item h3 {
+     text-transform : uppercase;
+     margin-bottom : 5px;
+}
+
+ .progress-item {
+     position : relative;
+}
+ .progress-item .progress-title {
+     font-size : 12px;
+     font-weight : 400;
+     display : inline-block;
+     margin-bottom : 5px;
+}
+ .progress-item .progress {
+     height : 2px;
+     box-shadow : none;
+     border-radius : 0;
+     background : transparent;
+}
+ .progress-item .progress-bar {
+     background-color : #ff5722;
+     box-shadow : none;
+     text-align : right;
+}
+ .progress-item .progress-percent {
+     font-size : 10px;
+     background-color : #313131;
+     position : absolute;
+     top : 5px;
+     padding : 0 8px;
+     border-radius : 3px;
+}
+ .progress-item .progress-percent::before {
+     content : "";
+     position : absolute;
+     left : 0;
+     bottom : -4px;
+     border-top : 6px solid #313131;
+     border-right : 8px solid transparent;
+}
+ @media (max-width: 768px) {
+     .progress-wrapper{
+         margin-bottom: 50px;
+    }
+}
+
+ #review .item{
+     margin-bottom: 10px;
+	 font-size: 14px;
+}
+ #review .media-left{
+     padding-right: 15px;
+}
+ #review .media-left img{
+     width: 24px;
+     border-radius: 3px;
+	 padding-top: 6px;
+}
+ #review .user-name{
+     color: #444;
+     font-weight: 500;
+}
+ #review .review-text{
+     margin: 10px 0;
+	 display: none;
+}
+ #review .view-details{
+     cursor: pointer;
+}
+ #review .hide-details{
+     cursor: pointer;
+	 display: none;
+     background-color: #313131;
+     padding: 1px 8px;
+     border-radius: 3px;
+	 color: #ffffff;
+}
+
+ .content-item {
+     margin-bottom : 40px;
+}
+ .content-item h3 {
+     margin : 0 0 10px;
+     line-height : 1;
+     font-weight : bold;
+     text-transform : uppercase;
+}
+ .content-item h4 {
+     margin : 0;
+     line-height : 1;
+}
+ .content-item small {
+     color : #888888;
+}
+
+ .section-contact address strong {
+     font-size : 13px;
+     text-transform : uppercase;
+}
+ .feedback-form {
+     margin-top : 50px;
+}
+
+ .footer {
+     padding : 30px 0;
+     text-align : right;
+}
+ .footer .copyright-section {
+     font-size : 13px;
+}
+ .footer .copyright-section .copytext {
+     font-weight : 400;
+     display : block;
+}
+ @media (max-width : 768px) {
+     .footer {
+         text-align: left;
+    }
+}
+ @media (max-width : 600px){
+     .footer {
+         padding-left: 20px;
+         padding-right: 20px;
+    }
+}
+
+ #preloader {
+     background : #ccc;
+     bottom : 0;
+     left : 0;
+     position : fixed;
+     right : 0;
+     top : 0;
+     z-index : 9999;
+}
+ #status, .status-mes {
+     background-image : url(../img/puff.svg);
+     background-position : center;
+     background-repeat : no-repeat;
+     height : 200px;
+     left : 50%;
+     margin : -100px 0 0 -100px;
+     position : absolute;
+     top : 50%;
+     width : 200px;
+}
+ .status-mes {
+     background : none;
+     left : 0;
+     margin : 0;
+     text-align : center;
+     top : 65%;
+}
